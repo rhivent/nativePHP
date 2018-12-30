@@ -1,0 +1,1 @@
+SELECT * FROM `givtest`.`score_challenge` ORDER BY `score` DESC, `challenge_id` DESC, `hacker_id` ASC LIMIT 1000;
