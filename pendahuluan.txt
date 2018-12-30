@@ -1,0 +1,23 @@
+MVC => Pola arsitektur pada perancangan perangkat lunak berorientasi objek. Bahasa yang memiliki Objek oriented dapat menerapkan pola ini.
+Tujuan MVC adalah memisahkan antara tampilan, data, dan proses. Komponen yang dipisahkan ada 3 komponen utama yaitu Model, View, Controller.
+Kenapa belajar MVC?
+=> Organisasi dan Struktur kode yang baik : menyimpan file, membuat struktur folder,dll.
+=> Pemisahan login dan tampilan
+=> Perawatan Kode : maintenance kode
+=> Implementasi kode OOP yang sudah dipelajari sebelumnya.
+=> Digunakan oleh bnayak web application framework
+
+Framework MVC
+PHP => Codeigniter, Laravel, Yii, Symfony,dll.
+JAVA => Spring MVC, JSF, Struts, dll.
+Python => Django, CherryPy, dll.
+Ruby => Ruby on Rails, Sinatra, dll.
+Javascript => AngularJs, React, BackboneJs, dll.
+
+Tugas-tugas tiap komponen:
+Model : Represntasi pengetahuan, Mengelola data, Logika Bisnis.
+View : Output, apa yang dilihat oleh user, lapisan presentasi
+Controller : Perantara model dan view, menangangi pemrosesan pada aplikasi, Menangani aksi dari user.
+
+Application flow yang akan dibuat yaitu :
+index.php => routing => Application controller => model => application controller => view=> index.php
